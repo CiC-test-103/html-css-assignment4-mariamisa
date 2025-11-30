@@ -12,32 +12,74 @@
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <main class="container">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+    <!-- Result Section -->
+    <section class="result-container flex-item">
+      <h1 class="result-title">Your Result</h1>
+      <div class="circle space-top" aria-label="Your score">
+        <span class="score">76</span>
+        <span class="of-score">of 100</span>
+      </div>
+      <p class="score-evaluate space-top">Great</p>
+      <p class="score-description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
 
-  Reaction
-  80 / 100
+    <!-- Summary Section -->
+    <section class="summary-container flex-item">
+      <h2 class="summary-title">Summary</h2>
 
-  Memory
-  92 / 100
+      <div class="result-details-container red space-top">
+        <div class="flex">
+          <img src="./assets/images/icon-reaction.svg" alt="Reaction icon">
+          <span>Reaction</span>
+        </div>
+        <div>
+          <span class="dark">80</span><span class="light"> / 100</span>
+        </div>
+      </div>
 
-  Verbal
-  61 / 100
+      <div class="result-details-container yellow space-top-small">
+        <div class="flex">
+          <img src="./assets/images/icon-memory.svg" alt="Memory icon">
+          <span>Memory</span>
+        </div>
+        <div>
+          <span class="dark">92</span><span class="light"> / 100</span>
+        </div>
+      </div>
 
-  Visual
-  72 / 100
+      <div class="result-details-container green space-top-small">
+        <div class="flex">
+          <img src="./assets/images/icon-verbal.svg" alt="Verbal icon">
+          <span>Verbal</span>
+        </div>
+        <div>
+          <span class="dark">61</span><span class="light"> / 100</span>
+        </div>
+      </div>
 
-  Continue
+      <div class="result-details-container blue space-top-small">
+        <div class="flex">
+          <img src="./assets/images/icon-visual.svg" alt="Visual icon">
+          <span>Visual</span>
+        </div>
+        <div>
+          <span class="dark">73</span><span class="light"> / 100</span>
+        </div>
+      </div>
+
+      <button class="btn-primary" type="button">Continue</button>
+    </section>
+
+  </main>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mariam Isa</a>.
   </div>
 </body>
 </html>
