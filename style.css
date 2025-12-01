@@ -68,8 +68,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: var(--clr-lightLavender);
+  background-color: var(--clr-paleBlue);
   font-family: var(--fs-base);
+}
+
+.main-container {
+  margin: auto;
 }
 
 .container {
@@ -195,6 +199,32 @@ body {
   font-size: var(--fs-normal);
   padding: 12px;
   border: none;
+}
+.btn-primary:hover{
+  cursor: pointer;
+  background: linear-gradient(to bottom, var(--gra-lightSlateBlue), var(--gra-lightRoyalBlue));
+
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .main-container {
+    background-color: var(--clr-paleBlue);
+    width: 90%;
+    height: 90%;
+    padding: 100px 0;
+    margin: 10vh auto;
+    box-shadow: 5px 12px 20px rgb(164, 162, 162);
+  }
+  .container {
+    margin: 15vh auto;
+  }
 }
 
 @media (max-width: 375px) {
